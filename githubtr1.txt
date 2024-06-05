@@ -1,0 +1,10 @@
+provider "github" {
+  token=""
+}
+
+resource "github repository" hyarelgit-first-repo" {
+  name = "hyarelgit"
+  description = "This is first repo"
+  visibilty = "public"
+  auto_init = true
+  }
